@@ -1,0 +1,32 @@
+#main{
+    display:flex;
+    flex-direction:row;
+    background: #F5F5F5;
+}
+
+#profile{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#textpartProfile{
+    display: flex;
+    align-items:left;
+    flex-direction: column;
+}
+
+#leftNav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+#rightNav{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    width: 70%;
+
+}
